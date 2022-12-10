@@ -60,7 +60,7 @@ input[class^='btn-']:hover {
 .py-3 {
   padding: 3rem 0; }
 
-.py-3 {
+.py-4 {
   padding: 4rem 0; }
 
 .my-1 {
@@ -245,6 +245,50 @@ img {
 #about-a .award-3 .fas {
   color: #ffa31a;
   margin: 1rem; }
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.7rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ffa31a; }
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; }
+  #about-c .about-logos img {
+    width: 70%; }
+
+#about-d .testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem; }
+
+#about-d ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center; }
+
+#about-d p {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem; }
+
+#about-d .container > p {
+  border: none; }
+
+#about-d img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem; }
 
 #main-footer {
   background: #333;
